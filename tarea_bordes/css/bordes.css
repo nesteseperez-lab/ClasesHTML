@@ -1,0 +1,30 @@
+.borde1 {
+    border: 15px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;    
+    border-style: solid;
+    border-radius: 10px;
+    background: linear-gradient(to right,blue, white);
+    border-top-color: red;
+    border-left-color: black;
+    border-bottom-color: green;
+    border-right-color: blue;
+    margin: 70px;
+    }
+
+    .borde2 {
+    border: 10px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;    
+    border-style: solid;
+    background: black;
+    border-image: linear-gradient(to right, #e66465, #9198e5);
+    border-image-slice: 1;
+    margin: 70px;
+    
+    }
