@@ -1,0 +1,145 @@
+nav{
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    border: 10px;
+  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.item_header{
+    background-color: rgb(14, 14, 14);
+    grid-column: 1 / span 5;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    color: white;
+    height: 75px;
+    justify-content: space-around; 
+    align-items: center;
+
+}
+
+.titulo{    
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+    line-height: 20px;
+    border-color: wheat;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.titulo h2 {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.titulo img, .caja-menu img {
+    vertical-align: middle; /* Alinea los iconos con el centro del texto */
+    margin-right: 5px;
+}
+
+
+.caja-menu {
+    list-style: none;    
+    padding: 0;          
+    margin: 0;
+    display: flex;        
+    gap: 20px;            
+}
+
+
+.caja-menu li {
+    display: inline-block; 
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    vertical-align: middle; 
+}
+
+
+.caja-menu li img {
+    vertical-align: middle; 
+    margin-right: 8px;      
+}
+
+
+.caja{
+    background-color: blueviolet;
+    padding: 0;          
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: black;
+}
+
+
+
+.img-portada {
+    width: 100%;
+    height: 100%;     
+    object-fit: cover; 
+    display: block;
+}
+
+.item_nav{
+    background-color: white;
+    grid-column: 1/ span 5;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    color: black;
+    height: 1500px;
+    gap: 2px;
+    padding: 5px;
+    justify-content: center;
+    
+}
+
+.item_footer1{
+    background-color: rgb(14, 14, 14);
+    grid-column: 1/ span 5;
+    color: white;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.caja_footer{
+    background-color: wheat;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    line-height: 50px;
+    border-color: wheat;
+    display: inline-block;
+        
+}
+
+.caja_footer2{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+    line-height: 50px;
+    border-color: wheat;
+    display: inline-block;
+        
+}
+
+.item_footer2{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 50px;
+    text-align: center;
+    grid-column: 1/ span 5;
+    color: white;
+    height: 50px;
+}
