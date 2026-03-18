@@ -1,0 +1,257 @@
+/* Estilos generales */
+body {
+    font-family: 'Georgia', serif;
+    background: #FDFDFD;
+    color: #122E40;
+    margin: 0;
+}
+
+header {
+    background: #122E40;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.logo-img { 
+    width: 60px; 
+    height: auto;
+}
+
+.logo-text { 
+    line-height: 1.2;
+}
+
+.brand-name { 
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #D9CEC5;
+}
+
+.brand-sub { 
+    font-size: 0.8rem;
+    text-transform:uppercase;
+    color: white; 
+}
+
+/* Menu */
+nav ul { 
+    display: flex; 
+    list-style: none; 
+    gap: 10px; 
+}
+
+nav a { 
+    color: white;
+    text-decoration: none; 
+    font-size: 0.9rem;
+    padding: 8px 15px; 
+    border-radius: 4px; 
+    transition: 0.3s; 
+}
+
+nav a:hover { 
+    background: #24638a; 
+}
+
+nav a.active { 
+    border-bottom: 2px solid #731D2C; 
+    border-radius: 4px 4px 0 0; 
+}
+
+
+.item_nav {
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 60px 10%;
+    min-height: 500px;
+}
+
+
+/*****/
+
+.servicios {
+    background: #D9CEC5;
+    padding: 40px 10%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.servicios h1 { 
+    font-size: 3rem; color: #731D2C;
+}
+
+.container_general{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center; 
+    gap: 20px;              
+    flex-wrap: wrap;
+}
+
+.card{
+    
+    width: 400px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+    margin: 40px 15px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgb(28, 172, 172);
+    transition: all .3s linear;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    background-color:  #fff;
+    color: #fff;
+}
+
+.card-img{
+    width: 400px;
+    height: 220px;
+    object-fit:cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-text{
+    width: 100%;
+    padding: 10px;
+    color: green;
+    text-align: center;
+}
+
+h3{
+   
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    padding: 15px;
+}
+
+.card-p{
+    font-size: 1.3rem;
+    text-align: center;
+    initial-letter: 5;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    padding: 15px;
+}
+
+/*****/
+
+
+/* Footer */
+.main-footer {
+    background: #122E40;
+    color: white;
+    padding: 60px 5% 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+}
+
+.footer-column h4, .footer-newsletter h4 {
+    color: #D9CEC5;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-column ul { 
+    list-style: none; 
+    padding: 0; 
+}
+
+.footer-column li { 
+    margin-bottom: 10px; 
+}
+
+.footer-column a {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.footer-column a:hover { 
+    color: #731D2C; 
+    padding-left: 5px; 
+}
+
+.newsletter-form { 
+    display: flex; 
+    gap: 10px; 
+    margin-top: 15px; 
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #73675D;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 4px;
+}
+
+.newsletter-form button {
+    background: #731D2C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(217, 206, 197, 0.2);
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #D9CEC5;
+}
+
+.social-icons { 
+    display: flex; 
+    gap: 20px; 
+}
+
+.social-icons img {
+    background: #D9CEC5;
+    border-radius: 30%;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover { 
+    transform: scale(1.1); 
+}
